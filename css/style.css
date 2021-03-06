@@ -1,18 +1,32 @@
 
+p{
+    color: crimson;
+    border: black;
+text-shadow: crimson;
+}
 
-main{
-    background-color: lightcoral;
-
+footer{
+    border: crimson;
+    background-color: black;
+    display: contents;
 }
 
 nav{
-    color: lightcyan;
+    color:black;
     border:black;
     padding: 4px;
     border: groove;
-
+background-color: crimson;
 }
+
 body{
-    background: gray;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/I/517BWWhq-IL._AC_UL600_SR600,600_.jpg");
 
 }
+ul{
+    color: crimson;
+    border: crimson;
+    background-color: black;
+    display:inline-flex;
+}
+
