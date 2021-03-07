@@ -115,9 +115,9 @@ q5();
 
 alert('Thank you, my friend'+username+'for answer my question');
 let x =0;
+   let question6 = parseInt( prompt('guss the number between 1$10').toLowerCase());
 
 function number(){
-   let question6 = parseInt( prompt('guss the number between 1$10').toLowerCase());
   do{
     x+=1;
     if( question6<=10 && question6>5 ){
