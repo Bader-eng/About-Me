@@ -121,9 +121,9 @@ function number(){
     x+=1;
     let question6 = parseInt( prompt('guss the number between 1$10').toLowerCase());
     if( question6<=10 && question6>5 ){
-      alert(' too low');
+      question6=prompt('too low');
     }else if(question6>=1 && question6<=4){
-      alert('too high');
+      question6=prompt('too high');
     } else if (question6===5){
       alert('coreect anser');
       f++;
@@ -141,18 +141,18 @@ function hobby(){
     for(let i=0;i<5;i++){
       if(question7===Hobby[0]){
         z++;
-        alert('corect');
+        //alert('corect');
         console.log('anser:'+question7);
         //question7 =prompt('try').toLocaleLowerCase();
         f++;
       }else if(question7===Hobby[1]){
-        alert('corect');
+       // alert('corect');
         console.log('anser:'+question7);
         // question7 =prompt('try').toLocaleLowerCase();
         z++;
         f++;
       }else if(question7===Hobby[2]){
-        alert('corect');
+       // alert('corect');
         console.log('anser:'+question7);
         z++;
         //question7 =prompt('try').toLocaleLowerCase();
