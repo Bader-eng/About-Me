@@ -129,7 +129,7 @@ function number(){
       f++;
       break;
     }
-  } while( x<4 );
+  } while( x<3 );
 }
 number();
 
