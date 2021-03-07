@@ -121,11 +121,13 @@ function number(){
   do{
     x+=1;
     if( question6<=10 && question6>5 ){
-      question6=prompt('too high');
+       alert('too high');
+      question6=prompt('try again');
     }else if(question6>=1 && question6<=4){
-      question6=prompt('too low');
+      alert('too low');
+      question6=prompt('try again');
     } else if (question6===5){
-      alert('coreect anser');
+      alert('good Job');
       f++;
       break;
     }
