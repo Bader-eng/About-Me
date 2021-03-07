@@ -117,13 +117,13 @@ alert('Thank you, my friend'+username+'for answer my question');
 let x =0;
 
 function number(){
+   let question6 = parseInt( prompt('guss the number between 1$10').toLowerCase());
   do{
     x+=1;
-    let question6 = parseInt( prompt('guss the number between 1$10').toLowerCase());
     if( question6<=10 && question6>5 ){
-      question6=prompt('too low');
-    }else if(question6>=1 && question6<=4){
       question6=prompt('too high');
+    }else if(question6>=1 && question6<=4){
+      question6=prompt('too low');
     } else if (question6===5){
       alert('coreect anser');
       f++;
@@ -165,8 +165,8 @@ function hobby(){
         break;
       }
     }
+    alert('My favorite hoppy are: history, watch anime, swimming, ');
   }
 }
 hobby();
-alert('My favorite hoppy are: history, watch anime, swimming, ');
 alert('Good Job!... You got ' + f + ' out of 7');
